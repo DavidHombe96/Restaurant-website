@@ -78,10 +78,19 @@
   transition: 0.5s ease;
   font-size: 27px;
   color: var(--color-golden);
-
+  cursor: pointer;
   position: absolute;
   top: 20px;
   right: 20px;
+}
+ .app__navbar-smallscreen-button_menu{
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+
+.app__navbar-smallscreen-button_menu:hover{
+  color: var(--color-golden) !important;
 }
 
 .app__navbar-smallscreen-links {

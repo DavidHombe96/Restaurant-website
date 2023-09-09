@@ -35,11 +35,11 @@ const Navbar = () => {
       </a>
       <div></div>
       <a href="/" className="p__opensans">
-        Boock Table{" "}
+        Book Table
       </a>
     </div>
     <div className="app__navbar-smallscreen">
-      <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {setToggleMenu(true)}} />
+      <GiHamburgerMenu className="app__navbar-smallscreen-button_menu"  color="#fff" fontSize={27} onClick={() => {setToggleMenu(true)}} />
 
       {toggleMenu && (
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
