@@ -2,6 +2,10 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "author": {
+    "name": "David Hombe",
+    "url": "https://github.com/DavidHombe96/Restaurant-website/"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
